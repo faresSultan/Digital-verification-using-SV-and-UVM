@@ -1,0 +1,29 @@
+{D:/Digital IC design/Digital verification/Session 1/Assignment/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 1/Assignment/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_4_bit
+
+Top level modules:
+	ALU_4_bit
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 1/Assignment/ALU_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 1/Assignment/ALU_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 1/Assignment/priority_enc.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 1/Assignment/priority_enc.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module priority_enc
+
+Top level modules:
+	priority_enc
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 1/Assignment/priority_enc_TB.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 1/Assignment/priority_enc_TB.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module enc_tb
+
+Top level modules:
+	enc_tb
+
+} {} {}}

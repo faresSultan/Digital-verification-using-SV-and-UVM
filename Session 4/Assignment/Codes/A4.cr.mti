@@ -1,0 +1,69 @@
+{D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb.sv(1): (vlog-13233) Design unit "counter_tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package counter_tb_sv_unit
+-- Importing package Assignment3
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALSU
+
+Top level modules:
+	ALSU
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv(1): (vlog-13233) Design unit "ALSU_tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package ALSU_tb_sv_unit
+-- Importing package Assignment3
+-- Compiling module ALSU_tb
+
+Top level modules:
+	ALSU_tb
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/config_reg_buggy_questa.svp} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/config_reg_buggy_questa.svp}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module config_reg
+
+Top level modules:
+	config_reg
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter_sva
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(29): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(29): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(29): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(86): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(86): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_tb_SVA.sv(86): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	counter_sva
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/counter_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/package.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/package.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Assignment3
+
+Top level modules:
+	--none--
+
+} {} {}}

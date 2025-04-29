@@ -1,0 +1,40 @@
+Sun Apr 06 16:16:14 +0200 2025
+Trace back: sim:/Q3/DUT not found
+    while executing
+"context type $context"
+    (procedure "langOf" line 2)
+    invoked from within
+"langOf $instance_name"
+    (object "::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition" method "::CovAnalysis::UpdateDetailsFromSelection" body line 53)
+    invoked from within
+"::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition UpdateDetailsFromSelection KALSU.v67000XEE0"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel "#0" $cmd"
+    (object "::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition" method "::vsimwidgets::Hierarchy::_evalCmd" body line 45)
+    invoked from within
+"_evalCmd $itk_option(-selectcommand) $node "
+    (object "::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition" method "::vsimwidgets::Hierarchy::_select" body line 7)
+    invoked from within
+"_select $idx"
+    (object "::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition" method "::vsimwidgets::Hierarchy::selection" body line 74)
+    invoked from within
+"vsimwidgets::Hierarchy::selection set $idx"
+    ("text" arm line 25)
+    invoked from within
+"switch -exact $ident {
+		"" {
+		    # Ignore this which means the mouse is over
+		    # nothing identifiable
+		}
+		expand {
+		    # Already handled (s..."
+    (object "::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition" method "::vsimwidgets::Hierarchy::_buttonRelease1" body line 15)
+    invoked from within
+"::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition _buttonRelease1 .main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.cond..."
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.canalysis.interior.cs.body.notebook.cs.page3.cs.condition _buttonRelease1 .main_pane.canalysi..."
+    (command bound to event)
+  <2:C:/questasim64_2021.1/win64/tk8.6/bgerror.tcl:106: ::tkerror {sim:/Q3/DUT not found}
+  <1:C:/mtitcl/vsim/vsimcmd.tc_:1485: ::tk::dialog::error::bgerror {sim:/Q3/DUT not found}

@@ -1,0 +1,77 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ASUFOE/fall24/Computer Architecture/8255A
+T_opt
+!s110 1741155772
+V4kK^[>^mdHbcCh6;<P9?O0
+04 2 4 work TB fast 0
+=1-ccf9e498c556-67c7edba-27-3a8c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vadder
+Z2 !s110 1741155769
+!i10b 1
+!s100 >hmWWOL<k6ZYo4H3]4XVE0
+I=;fUzn>H]GEG2=Ta8LOXF3
+Z3 dD:/Digital IC design/Digital verification/Session 1
+w1740745841
+8./Lab1/adder.v
+F./Lab1/adder.v
+!i122 17
+L0 1 13
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1741155769.000000
+Z7 !s107 ./Lab1/adder_tb.sv|./Lab1/adder.v|
+Z8 !s90 -reportprogress|300|./Lab1/adder.v|./Lab1/adder_tb.sv|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vTB
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 gGKzFEF0XQ1j1Bz<H?51a0
+I;CaOL`=2ijCcH20JYYIQM0
+S1
+R3
+w1741155745
+8./Lab1/adder_tb.sv
+F./Lab1/adder_tb.sv
+!i122 17
+L0 1 109
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@t@b

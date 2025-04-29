@@ -1,0 +1,15 @@
+{D:/Digital IC design/Digital verification/Session 1/Lab1/adder_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 1/Lab1/adder_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 1/Lab1/adder.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 1/Lab1/adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

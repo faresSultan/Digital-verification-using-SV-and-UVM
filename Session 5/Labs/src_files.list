@@ -1,0 +1,9 @@
+shift_reg.v
+shift_reg_if.sv
+SequenceItem.sv
+shift_register_driver.sv
+Sequencer.sv
+shift_reset_sequence.sv
+shift_reg_env.sv
+shift_reg_test.sv
+top.sv

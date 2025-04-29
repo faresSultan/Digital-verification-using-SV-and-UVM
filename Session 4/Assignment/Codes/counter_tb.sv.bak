@@ -1,0 +1,64 @@
+import Assignment3::*;
+
+
+module counter_tb(counter_if.TEST counterIF);
+    
+    CounterConstraints constraintVals = new;
+    
+    int Error_Count,Correct_Count;
+
+    initial begin
+        Error_Count = 0;
+        Correct_Count = 0;
+
+    //--Counter1
+        counterIF.load_n = 0;
+        counterIF.data_load = 'hf;
+        assert_reset;   
+
+    //--Counter2,3,4,5,6   
+
+        repeat(1000) begin
+            
+            assert (constraintVals.randomize());
+            counterIF.rst_n = constraintVals.rst_n;
+            counterIF.load_n = constraintVals.load_n;
+            counterIF.ce = constraintVals.ce;
+            counterIF.up_down = constraintVals.up_down;
+            counterIF.data_load = constraintVals.data_load;
+            @(negedge counterIF.clk);
+            constraintVals.count_out = counterIF.count_out;
+            constraintVals.CovCode.sample();
+        end
+
+        // directed test to complete functional coverage (load zero to the counter)
+            counterIF.rst_n = 1;
+            constraintVals.rst_n = counterIF.rst_n;
+            counterIF.load_n = 0;
+            constraintVals.load_n = counterIF.load_n;
+            counterIF.data_load = 0;
+            constraintVals.data_load = counterIF.data_load;
+            @(negedge counterIF.clk);
+            constraintVals.CovCode.sample();
+
+        $display("Correct Count: %0d",Correct_Count);
+        $display("Error Count: %0d", Error_Count);
+        $stop;  
+    end
+
+    task assert_reset ;
+    counterIF.rst_n = 0;
+    @(negedge counterIF.clk);   
+    if ((counterIF.count_out != 'b0)&&(counterIF.zero != 1'b1))begin
+        $display("Reset failed");
+        Error_Count++;   
+    end
+    else begin
+        $display("Reset Passed");
+        Correct_Count++;
+    end 
+    counterIF.rst_n = 1;
+    //@(negedge counterIF.clk);
+    endtask 
+
+endmodule

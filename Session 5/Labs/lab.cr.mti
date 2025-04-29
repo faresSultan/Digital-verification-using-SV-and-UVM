@@ -1,0 +1,99 @@
+{D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_reset_sequence
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package Sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v} {1 {vlog -work work -vopt -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Sequence_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_reg_config
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_register_driver.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_register_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package driver
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/shift_register_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package Sequence_item_pkg
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_register_driver.sv(13): Invalid type 'shift_reg_config_class'. Please check the type of the variable 'shift_cfg'.
+
+} {7.0 8.0} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface shift_reg_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_reg_test_pkg
+-- Importing package shift_reg_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(11): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(20): Invalid type 'shift_reg_config'. Please check the type of the variable 'SREG_config'.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(30): (vlog-2730) Undefined variable: 'SREG_config'.
+-- Importing package shift_reg_config
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(30): Failed to find the name 'type_id' in scope 'shift_reg_config' at D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv(2).
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(32): (vlog-2730) Undefined variable: 'shift_reg_config'.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(33): (vlog-2163) Macro `uvm_fetal is undefined.
+** Error: (vlog-13069) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_test.sv(33): near "(": syntax error, unexpected '('.
+
+} {7.0 9.0 10.0 14.0} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/top.sv(9): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shift_reg_test_pkg
+-- Importing package shift_reg_env_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv} {0 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_reg_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(11): (vlog-13006) Could not find the package (driver).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(17): Invalid type 'shift_reg_driver'. Please check the type of the variable 'driver'.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(27): (vlog-2730) Undefined variable: 'driver'.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(27): (vlog-2164) Class or package 'shift_reg_driver' not found.
+** Error: D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(27): (vlog-2730) Undefined variable: 'shift_reg_driver'.
+** Error: (vlog-13069) D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_env.sv(27): near "::": syntax error, unexpected ::, expecting ';'.
+
+} {6.0 12.0} {}} {D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Sequencer
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package Sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

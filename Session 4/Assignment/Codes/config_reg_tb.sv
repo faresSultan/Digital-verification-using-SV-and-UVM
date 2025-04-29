@@ -1,0 +1,153 @@
+typedef enum logic [2:0]{
+    adc0_reg = 0,adc1_reg =1,
+    temp_sensor0_reg=2,temp_sensor1_reg=3,
+    analog_test=4,digital_test=5,
+    amp_gain=6,digital_config=7
+} reg_addr_e;
+
+typedef logic[15:0] register_word_t;
+
+module config_reg_tb();
+
+    bit clk,rst,write;
+    reg_addr_e reg_addr;
+    register_word_t data_in,data_out;
+    register_word_t reset_assoc[string];
+    register_word_t reset_toggled_assoc[string];
+    register_word_t current_reg_value_assoc[string];
+    int Error_count, Correct_count;
+
+    always #1  clk = ~clk;
+
+    config_reg DUT(
+        .clk(clk),.reset(rst),.write(write),
+        .data_in(data_in),.data_out(data_out),.address(reg_addr)
+    );
+
+    initial begin
+        
+        //==========Reset Values==============
+
+        reset_assoc["adc0_reg"] = 16'hFFFF;
+        reset_assoc["adc1_reg"] = 16'h0000;
+        reset_assoc["temp_sensor0_reg"] = 16'h0000;
+        reset_assoc["temp_sensor1_reg"] = 16'h0000;
+        reset_assoc["analog_test"] = 16'hABCD;
+        reset_assoc["digital_test"] = 16'h0000;
+        reset_assoc["amp_gain"] = 16'h0000;
+        reset_assoc["digital_config"] = 16'h0001;
+
+        //==========Inverted Values==============
+        reset_toggled_assoc["adc0_reg"] = ~reset_assoc["adc0_reg"];
+        reset_toggled_assoc["adc1_reg"] = ~reset_assoc["adc1_reg"];
+        reset_toggled_assoc["temp_sensor0_reg"] = ~reset_assoc["temp_sensor0_reg"];
+        reset_toggled_assoc["temp_sensor1_reg"] = ~reset_assoc["temp_sensor1_reg"];
+        reset_toggled_assoc["analog_test"] = ~reset_assoc["analog_test"];
+        reset_toggled_assoc["digital_test"] =~reset_assoc["digital_test"];
+        reset_toggled_assoc["amp_gain"] = ~reset_assoc["amp_gain"];
+        reset_toggled_assoc["digital_config"] = ~reset_assoc["digital_config"];
+
+        //==============Config1=================
+        assert_reset();
+
+        //==============Config2=================
+        toggle_current_values();
+
+        // write = 1;
+        // reg_addr = digital_test;
+        // data_in = reset_assoc["digital_test"];
+        // @(negedge clk);
+
+        // digital_test_exhaustive: assert (data_out == 'h0000) Correct_count++;
+        //     else  
+        //         $error ("Failed for Register %0s, Actual Value = %0h,Expected: %0h",
+        //                 reg_addr.name,data_out,reset_assoc[reg_addr.name]
+        //         );
+
+       $display("Error count: %0d",Error_count);
+        $display("Correct count: %0d",Correct_count);
+        $stop;
+     end
+
+
+//==================Tasks====================
+
+    task assert_reset();
+        rst = 1;
+        read_current_values();
+        check_result("R");
+        rst = 0;
+        @(negedge clk);
+
+    endtask
+
+    task toggle_current_values();
+        write = 1;
+        reg_addr = adc0_reg;
+       for (int i=0; i<=reg_addr.last(); i++) begin
+           $display(
+                "Writing on reg: %0d (%0s) -> %0h ",
+                reg_addr,reg_addr.name,reset_toggled_assoc[reg_addr.name]
+            ); 
+           data_in = reset_toggled_assoc[reg_addr.name];             
+           @(negedge clk);
+           reg_addr = reg_addr.next;
+       end
+        read_current_values();
+        check_result("T");  
+
+    endtask
+
+    task read_current_values();
+       reg_addr = adc0_reg;
+       @(negedge clk); 
+       for (int i=0; i<=reg_addr.last(); i++) begin
+           current_reg_value_assoc[reg_addr.name] = data_out;
+           
+                    $display(
+                            " Register %0s, Actual Value = %0h",
+                            reg_addr.name,current_reg_value_assoc[reg_addr.name]
+                        );           
+           reg_addr = reg_addr.next;
+           @(negedge clk);
+       end        
+    endtask
+    
+    task check_result(string mode);
+           reg_addr = adc0_reg;
+
+           if(mode == "R") begin
+                for (int i=0; i<=reg_addr.last(); i++) begin
+                    if (current_reg_value_assoc[reg_addr.name] !== reset_assoc[reg_addr.name]) begin
+                        $display(
+                            "Failed for Register %0s, Actual Value = %0h,Expected: %0h",
+                            reg_addr.name,current_reg_value_assoc[reg_addr.name],reset_assoc[reg_addr.name]
+                        );
+                        Error_count++;
+                    end else begin
+                        Correct_count++;
+                    end
+                    reg_addr = reg_addr.next;                
+                end
+            end
+            else if (mode == "T") begin
+                for (int i=0; i<=reg_addr.last(); i++) begin
+
+                    if (current_reg_value_assoc[reg_addr.name] !== reset_toggled_assoc[reg_addr.name]) begin
+                        $display(
+                            "Failed for Register %0s, Actual Value = %0h,Expected: %0h",
+                            reg_addr.name,current_reg_value_assoc[reg_addr.name],reset_toggled_assoc[reg_addr.name]
+                        );
+                        Error_count++;
+                    end else begin
+                        Correct_count++;
+                    end
+                    reg_addr = reg_addr.next;                
+                end                
+            end
+
+    endtask
+    
+endmodule
+
+

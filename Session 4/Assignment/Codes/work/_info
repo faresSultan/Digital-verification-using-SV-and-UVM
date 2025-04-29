@@ -1,0 +1,528 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital IC design/Digital verification/Session 3
+T_opt
+!s110 1745147577
+VnOZSJ6NC^knLb]`e4oUVj3
+04 13 4 work config_reg_tb fast 0
+=1-ccf9e498c556-6804d6b9-20f-5148
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+T_opt1
+!s110 1745083196
+Vz@9AHAo_[kOG8b`>F?_Ua2
+04 10 4 work counter_tb fast 0
+=12-ccf9e498c556-6803db3c-7d-61d8
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1745132806
+Vz>W6E^?KeL_L_Y^BUlLPG3
+04 3 4 work top fast 0
+=1-ccf9e498c556-68049d05-2fc-b8c
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+vALSU
+Z6 !s110 1745082545
+!i10b 1
+!s100 M5=l398Ze^3j=5EaN6@5E3
+Ieo]E<S9K3>8^Yn=5>bzB01
+Z7 dD:/Digital IC design/Digital verification/Session 4/Assignment/Codes
+w1744030163
+8D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v
+FD:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v
+!i122 209
+L0 1 119
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z10 !s108 1745082545.000000
+!s107 D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@s@u
+vALSU_tb
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 DXx4 work 11 Assignment3 0 22 <Plg;3jL7]B5KRejjIKX82
+DXx4 work 15 ALSU_tb_sv_unit 0 22 O]e]4kje]ZSFdL`fBlc4C3
+R6
+R8
+r1
+!s85 0
+!i10b 1
+!s100 [>3lFozYAk6UI21zKgDGh1
+IWjE=0UBLnic<]@?GInK_22
+!s105 ALSU_tb_sv_unit
+S1
+R7
+Z13 w1745049462
+Z14 8D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv
+Z15 FD:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv
+!i122 210
+L0 3 378
+R9
+31
+R10
+Z16 !s107 D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 4/Assignment/Codes/ALSU_tb.sv|
+!i113 0
+Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@s@u_tb
+XALSU_tb_sv_unit
+R11
+R12
+R6
+VO]e]4kje]ZSFdL`fBlc4C3
+r1
+!s85 0
+!i10b 1
+!s100 i;T<Qnl=I>R:fbQ2a[dH80
+IO]e]4kje]ZSFdL`fBlc4C3
+!i103 1
+S1
+R7
+R13
+R14
+R15
+!i122 210
+Z19 L0 1 0
+R9
+31
+R10
+R16
+R17
+!i113 0
+R18
+R4
+n@a@l@s@u_tb_sv_unit
+XAssignment3
+R11
+Z20 !s110 1745132801
+!i10b 1
+!s100 zcW`:ZZS]BFH3`z;851aY2
+IXZjnNFhG0P[G1@`lK[W_>3
+S1
+R7
+w1745132738
+8package.sv
+Fpackage.sv
+!i122 338
+R19
+VXZjnNFhG0P[G1@`lK[W_>3
+R9
+r1
+!s85 0
+31
+Z21 !s108 1745132801.000000
+Z22 !s107 counter_tb.sv|package.sv|
+Z23 !s90 -reportprogress|300|package.sv|counter_tb.sv|
+!i113 0
+Z24 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@assignment3
+vconfig_reg
+R11
+Z25 !s110 1745147567
+!i10b 1
+!s100 6bfXA:jazf2nZa;mROfhQ1
+IUOeI]]=bHa[d<UYHF9l0;2
+!i119 1
+S1
+R7
+w1744745841
+8config_reg_buggy_questa.svp
+Fconfig_reg_buggy_questa.svp
+!i122 385
+L0 1 15
+R8
+R9
+r1
+!s85 0
+31
+Z26 !s108 1745147567.000000
+Z27 !s107 config_reg_tb.sv|config_reg_buggy_questa.svp|
+Z28 !s90 -reportprogress|300|config_reg_buggy_questa.svp|config_reg_tb.sv|+cover|-covercells|
+!i113 0
+Z29 !s102 +cover -covercells
+Z30 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vconfig_reg_tb
+R11
+DXx4 work 21 config_reg_tb_sv_unit 0 22 Sz<iA_aP=daeB4K7gm[dG1
+R25
+R8
+r1
+!s85 0
+!i10b 1
+!s100 WVjUlGF>7f7I27hTk`i?b0
+IIjfZD6GD10@30R^f:K[fo2
+!s105 config_reg_tb_sv_unit
+S1
+R7
+Z31 w1745147564
+Z32 8config_reg_tb.sv
+Z33 Fconfig_reg_tb.sv
+!i122 385
+L0 10 142
+R9
+31
+R26
+R27
+R28
+!i113 0
+R29
+R30
+R4
+Xconfig_reg_tb_sv_unit
+R11
+R25
+VSz<iA_aP=daeB4K7gm[dG1
+r1
+!s85 0
+!i10b 1
+!s100 ZY9nF8P:>fI4@HZBfz5Vf1
+ISz<iA_aP=daeB4K7gm[dG1
+!i103 1
+S1
+R7
+R31
+R32
+R33
+!i122 385
+R19
+R9
+31
+R26
+R27
+R28
+!i113 0
+R29
+R30
+R4
+vcounter
+R20
+!i10b 1
+!s100 IDDfPiggnW=R<F2k^8R0A3
+I<lGCIEoRd1`T;RTcBBS4:1
+R7
+w1745067340
+8counter.v
+Fcounter.v
+!i122 339
+L0 8 28
+R8
+R9
+r1
+!s85 0
+31
+R21
+Z34 !s107 counter_top.sv|counter_tb_SVA.sv|counter.v|
+Z35 !s90 -reportprogress|300|counter.v|counter_tb_SVA.sv|counter_top.sv|+cover|-covercells|
+!i113 0
+R29
+R30
+R4
+Ycounter_if
+R11
+!s110 1745083180
+!i10b 1
+!s100 C;E4LFWPJOh@o9l8h^@O=1
+IfV7_`8PMK`a07U:o:]WK_2
+S1
+R7
+w1745083158
+8D:\Digital IC design\Digital verification\Session 4\Assignment\Codes\counter_if.sv
+FD:\Digital IC design\Digital verification\Session 4\Assignment\Codes\counter_if.sv
+!i122 228
+R19
+R8
+R9
+r1
+!s85 0
+31
+!s108 1745083179.000000
+!s107 D:\Digital IC design\Digital verification\Session 4\Assignment\Codes\counter_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\Digital IC design\Digital verification\Session 4\Assignment\Codes\counter_if.sv|
+!i113 0
+R18
+R4
+vcounter_sva
+R11
+R20
+!i10b 1
+!s100 A@H]0gcTI]jP:Sd2Ill=n3
+IUUMG6;=kc`?8imo?zQ93m0
+S1
+R7
+w1745130965
+8counter_tb_SVA.sv
+Fcounter_tb_SVA.sv
+!i122 339
+L0 2 98
+R8
+R9
+r1
+!s85 0
+31
+R21
+R34
+R35
+!i113 0
+R29
+R30
+R4
+vcounter_tb
+R11
+Z36 DXx4 work 11 Assignment3 0 22 XZjnNFhG0P[G1@`lK[W_>3
+DXx4 work 18 counter_tb_sv_unit 0 22 ;ENKkad<ajg_:2nMj^4GA3
+R20
+R8
+r1
+!s85 0
+!i10b 1
+!s100 fk3Z^RO<O[oA6RWDj_:RK3
+I120G7cBHin1EB?V@d9nGI1
+!s105 counter_tb_sv_unit
+S1
+R7
+Z37 w1745132797
+Z38 8counter_tb.sv
+Z39 Fcounter_tb.sv
+!i122 338
+L0 4 65
+R9
+31
+R21
+R22
+R23
+!i113 0
+R24
+R4
+Xcounter_tb_sv_unit
+R11
+R36
+R20
+V;ENKkad<ajg_:2nMj^4GA3
+r1
+!s85 0
+!i10b 1
+!s100 M6QHXhEmiLV^mK^eQOl]k3
+I;ENKkad<ajg_:2nMj^4GA3
+!i103 1
+S1
+R7
+R37
+R38
+R39
+!i122 338
+R19
+R9
+31
+R21
+R22
+R23
+!i113 0
+R24
+R4
+vtop
+R11
+R20
+!i10b 1
+!s100 kVYo0^m;hB1<lk1CY>Xi51
+IRR<VTo_eD_`VZKoVlPYIE3
+S1
+R7
+w1745127871
+8counter_top.sv
+Fcounter_top.sv
+!i122 339
+L0 1 23
+R8
+R9
+r1
+!s85 0
+31
+R21
+R34
+R35
+!i113 0
+R29
+R30
+R4

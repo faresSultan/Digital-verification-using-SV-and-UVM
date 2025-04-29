@@ -1,0 +1,17 @@
+{D:/Digital IC design/Digital verification/Session 2/package.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 2/package.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package S2
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital IC design/Digital verification/Session 2/MemTrans.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital IC design/Digital verification/Session 2/MemTrans.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package MemTrans_sv_unit
+-- Importing package S2
+-- Compiling module lab2
+
+Top level modules:
+	lab2
+
+} {} {}}

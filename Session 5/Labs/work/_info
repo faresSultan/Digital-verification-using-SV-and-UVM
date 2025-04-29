@@ -1,0 +1,365 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Digital IC design/Digital verification/Session 2/Assignment
+T_opt
+!s110 1744381790
+V5fRnj@ZSV]`PB5F6f]k0Y1
+04 3 4 work top fast 0
+=1-ccf9e498c556-67f9275c-168-5228
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R0
+XSequence_item_pkg
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+!s110 1744987705
+!i10b 1
+!s100 @jUIlJfd0T3Ae]BTdmW9i3
+IoRZ]>DV72Wf]J^JJ0=33L2
+S1
+Z4 dD:/Digital IC design/Digital verification/Session 5/Labs
+w1744981948
+8D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv
+FD:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv
+Z5 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z6 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z7 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z8 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z9 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z10 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z11 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z12 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z13 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z14 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z15 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z16 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+!i122 57
+Z17 L0 2 0
+VoRZ]>DV72Wf]J^JJ0=33L2
+Z18 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1744987704.000000
+!s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/SequenceItem.sv|
+!i113 0
+Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@sequence_item_pkg
+XSequencer
+R2
+R3
+Z20 DXx4 work 17 Sequence_item_pkg 0 22 oRZ]>DV72Wf]J^JJ0=33L2
+!s110 1744987715
+!i10b 1
+!s100 _OfTdMkhSjcZk[U]4OePY2
+Ia```hMX0I]Le^<n[nZUh@0
+S1
+R4
+w1744982072
+8D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv
+FD:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 59
+Z21 L0 4 0
+Va```hMX0I]Le^<n[nZUh@0
+R18
+r1
+!s85 0
+31
+!s108 1744987714.000000
+!s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/Sequencer.sv|
+!i113 0
+R19
+R1
+n@sequencer
+vshift_reg
+!s110 1744987556
+!i10b 1
+!s100 T]bO2hh>T@VSG6TnEHOOi0
+Ioa2nVDgKROEZ7cdTSLAKQ0
+R4
+w1744379794
+8D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v
+FD:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v
+!i122 53
+L0 8 21
+Z22 VDg1SIo80bB@j0V0VzS_@n1
+R18
+r1
+!s85 0
+31
+!s108 1744987556.000000
+!s107 D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xshift_reg_config
+R2
+R3
+!s110 1744988030
+!i10b 1
+!s100 db9D@zGSHCaCXl^ol2lWM3
+I5YFfG5X2^^g;0Gk?aC[9U3
+S1
+R4
+w1744988025
+8D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv
+FD:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 61
+R17
+V5YFfG5X2^^g;0Gk?aC[9U3
+R18
+r1
+!s85 0
+31
+!s108 1744988030.000000
+!s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_config.sv|
+!i113 0
+R19
+R1
+Xshift_reg_env_pkg
+R2
+R3
+Z23 !s110 1744381787
+!i10b 1
+!s100 gH@;X@27d9``[ADh;l]A53
+IkL3?oB89[<8kXGHYFb9EW1
+S1
+R4
+w1744381699
+8shift_reg_env.sv
+Fshift_reg_env.sv
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 0
+Z24 L0 8 0
+VkL3?oB89[<8kXGHYFb9EW1
+R18
+r1
+!s85 0
+31
+Z25 !s108 1744381785.000000
+Z26 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|shift_reg_test.sv|shift_reg_env.sv|shift_reg_if.sv|shift_reg.v|
+Z27 !s90 -reportprogress|300|-f|src_files.list|
+!i113 0
+Z28 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yshift_reg_if
+R2
+!s110 1744987710
+!i10b 1
+!s100 PV=7eYBEUk`<?S:[G41Cc1
+Iz0bU504kgB=gQnA92[GA01
+S1
+R4
+w1744981247
+8D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv
+FD:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv
+!i122 58
+R24
+R22
+R18
+r1
+!s85 0
+31
+!s108 1744987710.000000
+!s107 D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reg_if.sv|
+!i113 0
+R19
+R1
+Xshift_reg_test_pkg
+R2
+R3
+Z29 DXx4 work 17 shift_reg_env_pkg 0 22 kL3?oB89[<8kXGHYFb9EW1
+R23
+!i10b 1
+!s100 g2GCj6<c3U?[m2gmoPAR=0
+Ik5@[<AU5?Agde:UKUOJ0W0
+S1
+R4
+w1744381547
+8shift_reg_test.sv
+Fshift_reg_test.sv
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 0
+R24
+Vk5@[<AU5?Agde:UKUOJ0W0
+R18
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R28
+R1
+Xshift_reset_sequence
+R2
+R3
+R20
+!s110 1744987894
+!i10b 1
+!s100 ;Yo@kGnSc86TL@Hc;XI1>1
+ID76004I@Y0QM32]0dA^^`0
+S1
+R4
+w1744987888
+8D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv
+FD:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 60
+R21
+VD76004I@Y0QM32]0dA^^`0
+R18
+r1
+!s85 0
+31
+!s108 1744987893.000000
+!s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/shift_reset_sequence.sv|
+!i113 0
+R19
+R1
+vtop
+R2
+R3
+R29
+Z30 DXx4 work 18 shift_reg_test_pkg 0 22 k5@[<AU5?Agde:UKUOJ0W0
+DXx4 work 11 top_sv_unit 0 22 WJP4_UNB33UZ<m=DhYklH2
+Z31 !s110 1744987559
+R22
+r1
+!s85 0
+!i10b 1
+!s100 IBbETE_V`cZ59ImJ97YCY3
+I12<O7==?`e4AGR3B;6deQ0
+!s105 top_sv_unit
+S1
+R4
+Z32 w1744981280
+Z33 8D:/Digital IC design/Digital verification/Session 5/Labs/top.sv
+Z34 FD:/Digital IC design/Digital verification/Session 5/Labs/top.sv
+!i122 56
+L0 12 26
+R18
+31
+Z35 !s108 1744987558.000000
+Z36 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Digital IC design/Digital verification/Session 5/Labs/top.sv|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital IC design/Digital verification/Session 5/Labs/top.sv|
+!i113 0
+R19
+R1
+Xtop_sv_unit
+R2
+R3
+R29
+R30
+R31
+VWJP4_UNB33UZ<m=DhYklH2
+r1
+!s85 0
+!i10b 1
+!s100 Vc8S3OY7aW4WLc9jPl>nG1
+IWJP4_UNB33UZ<m=DhYklH2
+!i103 1
+S1
+R4
+R32
+R33
+R34
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+!i122 56
+R24
+R18
+31
+R35
+R36
+R37
+!i113 0
+R19
+R1
