@@ -107,7 +107,7 @@ module ALSU_SVA(ALSU_if IF);
     property Shift_Left_feature;
         @(posedge IF.clk) 
             disable iff(IF.rst || IF.bypass_A || IF.bypass_B || invalid) 
-                Shift_Left |=> ##1 IF.out == $past({unsigned'(IF.out[4:0]),IF.serial_in},1); 
+                Shift_Left |-> ##2 IF.out == $past({IF.out[4:0],IF.serial_in},1); 
     endproperty
 
     property Shift_Right_feature;
