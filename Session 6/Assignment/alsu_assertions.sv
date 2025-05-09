@@ -107,25 +107,25 @@ module ALSU_SVA(ALSU_if IF);
     property Shift_Left_feature;
         @(posedge IF.clk) 
             disable iff(IF.rst || IF.bypass_A || IF.bypass_B || invalid) 
-                Shift_Left |-> ##2 IF.out == $past({IF.out[4:0],IF.serial_in},1); 
+                Shift_Left |-> ##2 IF.out == {$past(IF.out[4:0],1),$past(IF.serial_in,2)}; 
     endproperty
 
     property Shift_Right_feature;
         @(posedge IF.clk) 
             disable iff(IF.rst || IF.bypass_A || IF.bypass_B || invalid)
-                Shift_Right |=> ##1 IF.out == $past({IF.serial_in, IF.out[5:1]},2); 
+                (Shift_Right) |=> ##1 (IF.out == {$past(IF.serial_in,2),$past(IF.out[5:1],1)}); 
     endproperty
 
     property Rotate_Left_feature;
         @(posedge IF.clk) 
             disable iff(IF.rst || IF.bypass_A || IF.bypass_B || invalid) 
-                Rotate_Left |=> ##1 IF.out == $past({IF.out[4:0],IF.out[5]},2); 
+                (Rotate_Left) |=> ##1 IF.out == $past({IF.out[4:0],IF.out[5]},1); 
     endproperty
 
     property Rotate_Right_feature;
         @(posedge IF.clk) 
             disable iff(IF.rst || IF.bypass_A || IF.bypass_B || invalid) 
-                Rotate_Right |=> ##1 IF.out == {$past(IF.out[0],2), $past(IF.out[5:1],2)}; 
+                Rotate_Right |=> ##1 IF.out == {$past(IF.out[0],1), $past(IF.out[5:1],1)}; 
     endproperty
 //=================================Assert Properties===========================================
 
@@ -187,7 +187,7 @@ module ALSU_SVA(ALSU_if IF);
     cover property(Shift_Left_feature);
 
     shift_Right_feature: assert property (Shift_Right_feature)
-        else $error("Assertion Shift_Right_feature failed!");
+        else $fatal("Assertion Shift_Right_feature failed!");
     cover property(Shift_Right_feature);
     
     rotate_Left_feature: assert property (Rotate_Left_feature)

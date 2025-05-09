@@ -5,6 +5,7 @@ Z0 !s99 nomlopt
 R0
 R0
 R0
+R0
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -21,232 +22,250 @@ Z2 !s11d IC design/Digital 1 verification/Session 5 /Assignment/work
 !s11d alsu_driver_pkg D:/Digital 1 IC 5 D:/Digital 
 R2
 !s11d verification/Session 5/Assignment/work 1 ALSU_if 1 D:/Digital 
-!s11d IC design/Digital 0 
-!s11d config_obj_pkg D:/Digital 0 
+Z3 !s11d IC design/Digital 0 
+Z4 !s11d config_obj_pkg D:/Digital 0 
 !s110 1745482603
 VF0X<PSd^ajVMF4]XX<`];1
-04 6 4 work top_tb fast 0
+Z5 04 6 4 work top_tb fast 0
 =1-ccf9e498c556-6809f36a-193-ab0
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-Z3 tCvgOpt 0
+Z6 !s124 OEM100
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
 n@_opt
-OL;O;2021.1;73
+Z9 OL;O;2021.1;73
 R1
+T_opt1
+!s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 5 /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session 
+Z10 !s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 5 /Assignment/work 1 ALSU_if 1 1 ALSU_if D:/Digital 1 ALSU_if IC 1 ALSU_if design/Digital 1 ALSU_if 
+!s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 5 /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session alsu_test_pkg 1 Work/Digital-verification-using-SV-and-UVM/Session D:/Digital 1 Work/Digital-verification-using-SV-and-UVM/Session IC 1 Work/Digital-verification-using-SV-and-UVM/Session design/Digital 1 Work/Digital-verification-using-SV-and-UVM/Session 
+R10
+!s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 5 /Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session alsu_driver_pkg 1 Work/Digital-verification-using-SV-and-UVM/Session D:/Digital 1 Work/Digital-verification-using-SV-and-UVM/Session IC 1 Work/Digital-verification-using-SV-and-UVM/Session design/Digital 1 Work/Digital-verification-using-SV-and-UVM/Session 
+R10
+R3
+R4
+!s110 1746774197
+VjJ>SNAR9A9J[GSY5^95Xe0
+R5
+=1-ccf9e498c556-681da8b2-2c4-257c
+R6
+R7
+R8
+n@_opt1
+R9
 vALSU
-Z4 !s110 1745482824
+Z11 !s110 1746774191
 !i10b 1
 !s100 M5=l398Ze^3j=5EaN6@5E3
 I0Wli<beMPCB;Ea^739iS13
-Z5 dD:/Digital IC design/Digital verification/Session 5/Assignment
+Z12 dD:/Digital IC design/Digital verification/Class Work/Digital-verification-using-SV-and-UVM/Session 5/Assignment
 w1744030163
 8ALSU.v
 FALSU.v
-!i122 20
+!i122 21
 L0 1 119
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2021.1;73
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z8 !s108 1745482823.000000
-!s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top_module_tb.sv|alsu_test.sv|alsu_env.sv|alsu_driver.sv|alsu_config_obj.sv|ALSU_if.sv|ALSU.v|
-Z9 !s90 -reportprogress|300|-f|src_files.list|
+Z15 !s108 1746774191.000000
+Z16 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top_module_tb.sv|alsu_test.sv|alsu_env.sv|alsu_driver.sv|alsu_config_obj.sv|ALSU_if.sv|ALSU.v|
+Z17 !s90 -reportprogress|300|-f|src_files.list|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R3
+Z18 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
 n@a@l@s@u
 Xalsu_driver_pkg
-Z11 !s115 ALSU_if
-Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z13 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
-Z14 DXx4 work 14 config_obj_pkg 0 22 >V6EgFP?fUOIo3R>5<JB70
-R4
+Z19 !s115 ALSU_if
+Z20 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z21 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z22 DXx4 work 14 config_obj_pkg 0 22 >V6EgFP?fUOIo3R>5<JB70
+Z23 !s110 1746774192
 !i10b 1
 !s100 cYz:n<Ta_oI]S2lSZ=z[S1
 Io0_[4=bRim`@87SdRUZlW1
 S1
-R5
+R12
 w1745428741
 8alsu_driver.sv
 Falsu_driver.sv
-Z15 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
-Z16 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
-Z17 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
-Z18 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
-Z19 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
-Z20 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
-Z21 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-Z22 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
-Z23 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
-Z24 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
-Z25 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
-Z26 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
-!i122 20
-Z27 L0 4 0
+Z24 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z25 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z26 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z27 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z28 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z29 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z30 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z31 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z32 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z33 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z34 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z35 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+!i122 21
+Z36 L0 4 0
 Vo0_[4=bRim`@87SdRUZlW1
-R7
+R14
 r1
 !s85 0
 31
-R8
-Z28 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top_module_tb.sv|alsu_test.sv|alsu_env.sv|alsu_driver.sv|alsu_config_obj.sv|ALSU_if.sv|ALSU.v|
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
 Xalsu_env_pkg
-R12
-R13
-R14
-Z29 DXx4 work 15 alsu_driver_pkg 0 22 o0_[4=bRim`@87SdRUZlW1
-R4
+R20
+R21
+R22
+Z37 DXx4 work 15 alsu_driver_pkg 0 22 o0_[4=bRim`@87SdRUZlW1
+R23
 !i10b 1
 !s100 _H90X>I^NjYMP7o9l:ikB1
 IIU[HJS`Ej>V4@^QbL0;i`2
 S1
-R5
+R12
 w1745424936
 8alsu_env.sv
 Falsu_env.sv
-R15
-R16
-R17
-R18
-R19
-R20
-R21
-R22
-R23
 R24
 R25
 R26
-!i122 20
 R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+!i122 21
+R36
 VIU[HJS`Ej>V4@^QbL0;i`2
-R7
+R14
 r1
 !s85 0
 31
-R8
-R28
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
 YALSU_if
-R12
-R4
+R20
+R11
 !i10b 1
 !s100 UaI9J]BcIl_jQKO9mIH3h0
 I^@jT40<F;4eIe9IU]eI]J1
 S1
-R5
+R12
 w1745247223
 8ALSU_if.sv
 FALSU_if.sv
-!i122 20
-Z30 L0 1 0
-R6
-R7
+!i122 21
+Z38 L0 1 0
+R13
+R14
 r1
 !s85 0
 31
-R8
-R28
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
 n@a@l@s@u_if
 Xalsu_test_pkg
-R11
-R12
-R13
-R14
-R29
-Z31 DXx4 work 12 alsu_env_pkg 0 22 IU[HJS`Ej>V4@^QbL0;i`2
-R4
+R19
+R20
+R21
+R22
+R37
+Z39 DXx4 work 12 alsu_env_pkg 0 22 IU[HJS`Ej>V4@^QbL0;i`2
+R23
 !i10b 1
 !s100 =[`[h=S^8nO[;f>ASDLUV2
 I0HULh<1CccB_iCg_9OTQI3
 S1
-R5
+R12
 w1745428481
 8alsu_test.sv
 Falsu_test.sv
-R15
-R16
-R17
-R18
-R19
-R20
-R21
-R22
-R23
 R24
 R25
 R26
-!i122 20
 R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+!i122 21
+R36
 V0HULh<1CccB_iCg_9OTQI3
-R7
+R14
 r1
 !s85 0
 31
-R8
-R28
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
 Xconfig_obj_pkg
-R11
-R12
-R13
-R4
+R19
+R20
+R21
+R23
 !i10b 1
 !s100 Uz?cn9FiC?9ILaGX@9Y5d1
 I>V6EgFP?fUOIo3R>5<JB70
 S1
-R5
+R12
 w1745425889
 8alsu_config_obj.sv
 Falsu_config_obj.sv
-R15
-R16
-R17
-R18
-R19
-R20
-R21
-R22
-R23
 R24
 R25
 R26
-!i122 20
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+!i122 21
 L0 2 0
 V>V6EgFP?fUOIo3R>5<JB70
-R7
+R14
 r1
 !s85 0
 31
-R8
-R28
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
 Xtop_module_tb_sv_unit
-R12
-R12
-R13
-R14
-R29
-R31
-Z32 DXx4 work 13 alsu_test_pkg 0 22 0HULh<1CccB_iCg_9OTQI3
-R4
+R20
+R20
+R21
+R22
+R37
+R39
+Z40 DXx4 work 13 alsu_test_pkg 0 22 0HULh<1CccB_iCg_9OTQI3
+R23
 VaiH=UFCCEfZJZn>9IGJmB0
 r1
 !s85 0
@@ -255,43 +274,43 @@ r1
 IaiH=UFCCEfZJZn>9IGJmB0
 !i103 1
 S1
-R5
-Z33 w1745418549
-Z34 8top_module_tb.sv
-Z35 Ftop_module_tb.sv
-R15
-R16
-R17
-R18
-R19
-R20
-R21
-R22
-R23
+R12
+Z41 w1745418549
+Z42 8top_module_tb.sv
+Z43 Ftop_module_tb.sv
 R24
 R25
 R26
-!i122 20
-R30
-R7
-31
-R8
+R27
 R28
-R9
-!i113 0
-R10
-R3
-vtop_tb
-R12
-R12
-R13
-R14
 R29
+R30
 R31
 R32
+R33
+R34
+R35
+!i122 21
+R38
+R14
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vtop_tb
+R20
+R20
+R21
+R22
+R37
+R39
+R40
 DXx4 work 21 top_module_tb_sv_unit 0 22 aiH=UFCCEfZJZn>9IGJmB0
-R4
-R6
+R23
+R13
 r1
 !s85 0
 !i10b 1
@@ -299,17 +318,17 @@ r1
 IM;OPK;beQPEQbAD9@:EF_3
 !s105 top_module_tb_sv_unit
 S1
-R5
-R33
-R34
-R35
-!i122 20
+R12
+R41
+R42
+R43
+!i122 21
 L0 5 25
-R7
+R14
 31
-R8
-R28
-R9
+R15
+R16
+R17
 !i113 0
-R10
-R3
+R18
+R8
