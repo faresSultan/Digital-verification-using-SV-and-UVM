@@ -1,0 +1,878 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Digital IC design/Digital verification/Session 5/Assignment
+T_opt
+Z2 !s11d IC design/Digital 1 verification/Session 6 /Assignment/work 
+Z3 !s11d 1 ALSU_if 1 D:/Digital 6 ALSU_if 
+!s11d design/Digital verification/Session 6 /Assignment/work 1 verification/Session alsu_test_pkg 1 verification/Session D:/Digital 1 verification/Session IC 1 verification/Session design/Digital 1 verification/Session verification/Session 6 /Assignment/work 
+!s11d config_obj_pkg D:/Digital 6 IC 6 D:/Digital design/Digital 6 D:/Digital verification/Session 6 /Assignment/work 1 6 /Assignment/work ALSU_if 1 D:/Digital IC 1 D:/Digital 
+!s11d design/Digital verification/Session 6 /Assignment/work 1 ALSU_if 1 1 ALSU_if D:/Digital 1 ALSU_if IC 1 ALSU_if design/Digital 1 ALSU_if verification/Session 6 /Assignment/work 
+!s11d alsu_monitor_pkg D:/Digital 1 IC 6 D:/Digital 
+R2
+!s11d verification/Session 6/Assignment/work 1 ALSU_if 1 D:/Digital 
+Z4 !s11d IC design/Digital 0 
+Z5 !s11d alsu_driver_pkg D:/Digital 0 
+!s110 1745920247
+VDMLcnRf:XBhKS4F6>15@42
+Z6 04 6 4 work top_tb fast 0
+=1-ccf9e498c556-6810a0f4-3e2-3818
+Z7 !s124 OEM100
+Z8 o-quiet -auto_acc_if_foreign -work work +acc
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2021.1;73
+R1
+T_opt1
+!s11d Work/Digital-verification-using-SV-and-UVM/Session 6/Assignment/work 1 Work/Digital-verification-using-SV-and-UVM/Session 6 6/Assignment/work 
+Z11 !s11d IC design/Digital 1 verification/Class 6 design/Digital 
+R3
+!s11d Work/Digital-verification-using-SV-and-UVM/Session 6/Assignment/work 6 alsu_test_pkg 1 6/Assignment/work D:/Digital 1 6/Assignment/work IC 1 6/Assignment/work design/Digital 1 6/Assignment/work verification/Class 1 6/Assignment/work Work/Digital-verification-using-SV-and-UVM/Session 6 /Assignment/work 
+Z12 !s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 6 /Assignment/work 1 ALSU_if 1 1 ALSU_if D:/Digital 1 ALSU_if IC 1 ALSU_if design/Digital 1 ALSU_if verification/Class 1 ALSU_if 
+!s11d D:/Digital IC 1 design/Digital 6 IC 
+!s11d Work/Digital-verification-using-SV-and-UVM/Session 6/Assignment/work 1 config_obj_pkg 6 6/Assignment/work 
+R11
+R3
+!s11d Work/Digital-verification-using-SV-and-UVM/Session 6/Assignment/work 6 alsu_monitor_pkg 1 6/Assignment/work D:/Digital 1 6/Assignment/work IC 1 6/Assignment/work design/Digital 1 6/Assignment/work verification/Class 1 6/Assignment/work Work/Digital-verification-using-SV-and-UVM/Session 6 /Assignment/work 
+R12
+R4
+R5
+!s110 1746776015
+V^3dzozFGVYdl185^lIdgR0
+R6
+=1-ccf9e498c556-681dafcd-27f-310
+R7
+R8
+R9
+n@_opt1
+R10
+R1
+T_opt2
+Z13 !s11d verification/Class Work/Digital-verification-using-SV-and-UVM/Session 7 /labs/work 1 ALSU_if 1 1 ALSU_if D:/Digital 1 ALSU_if IC 1 ALSU_if design/Digital 1 ALSU_if verification/Class 1 ALSU_if Work/Digital-verification-using-SV-and-UVM/Session 7 /labs/work 
+!s11d D:/Digital IC 1 design/Digital 7 IC 
+!s11d Work/Digital-verification-using-SV-and-UVM/Session 7/labs/work 1 alsu_test_pkg 7 7/labs/work 
+!s11d IC design/Digital 1 verification/Class 7 design/Digital 
+!s11d 1 ALSU_if 1 D:/Digital 7 ALSU_if 
+!s11d design/Digital verification/Class 7 Work/Digital-verification-using-SV-and-UVM/Session 7 /labs/work config_obj_pkg 7 /labs/work D:/Digital 7 /labs/work IC 7 /labs/work design/Digital 7 /labs/work verification/Class 7 /labs/work Work/Digital-verification-using-SV-and-UVM/Session 7 /labs/work 
+!s11d alsu_monitor_pkg D:/Digital 7 IC 7 D:/Digital design/Digital 7 D:/Digital verification/Class 7 D:/Digital Work/Digital-verification-using-SV-and-UVM/Session 7 /labs/work 1 7 /labs/work ALSU_if 1 D:/Digital IC 1 D:/Digital 
+R13
+R4
+R5
+!s110 1746789697
+VYYC>VDOP0FKmEV8bBdo_a1
+R6
+=1-ccf9e498c556-681de53f-3d5-53dc
+R7
+R8
+R9
+n@_opt2
+R10
+vALSU
+Z14 !s110 1746789690
+!i10b 1
+!s100 M5=l398Ze^3j=5EaN6@5E3
+I0Wli<beMPCB;Ea^739iS13
+Z15 dD:/Digital IC design/Digital verification/Class Work/Digital-verification-using-SV-and-UVM/Session 7/labs
+w1745838650
+8ALSU.v
+FALSU.v
+!i122 283
+L0 1 119
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z18 !s108 1746789690.000000
+Z19 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top_module_tb.sv|alsu_test.sv|alsu_env.sv|alsu_agent.sv|alsu_coverage_collector.sv|alsu_scoreboard.sv|alsu_monitor.sv|alsu_driver.sv|alsu_sequencer.sv|alsu_sequence.sv|alsu_sequence_item.sv|alsu_config_obj.sv|alsu_assertions.sv|ALSU_if.sv|ALSU.v|
+Z20 !s90 -reportprogress|300|-f|src_files.list|
+!i113 0
+Z21 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@a@l@s@u
+Xalsu_agent_pkg
+Z22 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z23 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z24 DXx4 work 17 alsu_seq_item_pkg 0 22 ;7L]WQ?41NhjkBTB>e?XB2
+Z25 DXx4 work 15 alsu_driver_pkg 0 22 nNHNAmSW<bb1[oN6c55fN3
+Z26 DXx4 work 18 alsu_sequencer_pkg 0 22 Di?ZZ:Z3fi4<n[bLI4@]30
+Z27 DXx4 work 16 alsu_monitor_pkg 0 22 YiZ<MY:6KI`LoQNfQb7Ei2
+Z28 DXx4 work 14 config_obj_pkg 0 22 QU=W=Ih_6>TP4g0gXX24I2
+Z29 !s110 1746789691
+!i10b 1
+!s100 ?4h:YaV^D4n>i[=>FTDPg1
+Izao>dH>A]fj^@<RnO3GFY0
+S1
+R15
+w1746782179
+8alsu_agent.sv
+Falsu_agent.sv
+Z30 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z31 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z32 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z33 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z34 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z35 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z36 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z37 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z38 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z39 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z40 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z41 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+!i122 283
+Z42 L0 1 0
+Vzao>dH>A]fj^@<RnO3GFY0
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_coverage_collector_pkg
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 abUWbzZ6miEOa66?W`JDP1
+I8j>O`ZkhYEW^RNRnYXMRd2
+S1
+R15
+w1745838660
+8alsu_coverage_collector.sv
+Falsu_coverage_collector.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+V8j>O`ZkhYEW^RNRnYXMRd2
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_driver_pkg
+Z43 !s115 ALSU_if
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 4k4mfZN_UMhlV=LGE[iQj0
+InNHNAmSW<bb1[oN6c55fN3
+S1
+R15
+w1745509983
+8alsu_driver.sv
+Falsu_driver.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+Z44 L0 4 0
+VnNHNAmSW<bb1[oN6c55fN3
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_env_pkg
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+Z45 DXx4 work 14 alsu_agent_pkg 0 22 zao>dH>A]fj^@<RnO3GFY0
+Z46 DXx4 work 19 alsu_scoreboard_pkg 0 22 5NBQQ]=HOzWCCfz6^Dz761
+Z47 DXx4 work 27 alsu_coverage_collector_pkg 0 22 8j>O`ZkhYEW^RNRnYXMRd2
+R29
+!i10b 1
+!s100 KOL3_EglOjE7m=[P@71[i2
+IR?l7ID`6ED<iJ[XdGz@2U0
+S1
+R15
+w1745608009
+8alsu_env.sv
+Falsu_env.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R44
+VR?l7ID`6ED<iJ[XdGz@2U0
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+YALSU_if
+R22
+DXx4 work 15 ALSU_if_sv_unit 0 22 X8`77RShhk1:FbBLXBPEB1
+R14
+R16
+r1
+!s85 0
+!i10b 1
+!s100 9?KYY^Mb?5CVbdi747@9=3
+I?iFZ:1;bmn1`>jKM<@@160
+!s105 ALSU_if_sv_unit
+S1
+R15
+Z48 w1745841112
+Z49 8ALSU_if.sv
+Z50 FALSU_if.sv
+!i122 283
+L0 12 0
+R17
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+n@a@l@s@u_if
+XALSU_if_sv_unit
+R22
+R14
+VX8`77RShhk1:FbBLXBPEB1
+r1
+!s85 0
+!i10b 1
+!s100 O=mDohaDeS_BYOPFU@jNz3
+IX8`77RShhk1:FbBLXBPEB1
+!i103 1
+S1
+R15
+R48
+R49
+R50
+!i122 283
+R42
+R17
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+n@a@l@s@u_if_sv_unit
+Xalsu_monitor_pkg
+R43
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 bcna=]TlEZnBL>;nkoz7l3
+IYiZ<MY:6KI`LoQNfQb7Ei2
+S1
+R15
+w1745838662
+8alsu_monitor.sv
+Falsu_monitor.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+VYiZ<MY:6KI`LoQNfQb7Ei2
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_scoreboard_pkg
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 h6EV8EeG6EH4jYmEX1mZG3
+I5NBQQ]=HOzWCCfz6^Dz761
+S1
+R15
+w1745838656
+8alsu_scoreboard.sv
+Falsu_scoreboard.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+V5NBQQ]=HOzWCCfz6^Dz761
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_seq_item_pkg
+R22
+R23
+R29
+!i10b 1
+!s100 @[WERVa4VK0dA`QEIC=[k1
+I;7L]WQ?41NhjkBTB>e?XB2
+S1
+R15
+w1746789686
+8alsu_sequence_item.sv
+Falsu_sequence_item.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+Z51 L0 2 0
+V;7L]WQ?41NhjkBTB>e?XB2
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_sequence_pkg
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 Q8jKYf0SZ_9[<b=]MC<aM3
+IWT[EnzO2;h8SPkzD1_3fe3
+S1
+R15
+w1745838676
+8alsu_sequence.sv
+Falsu_sequence.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+VWT[EnzO2;h8SPkzD1_3fe3
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xalsu_sequencer_pkg
+R22
+R23
+R24
+R29
+!i10b 1
+!s100 R4I7D2QcAE6iBmS@f8kOH1
+IDi?ZZ:Z3fi4<n[bLI4@]30
+S1
+R15
+w1745483114
+8alsu_sequencer.sv
+Falsu_sequencer.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+VDi?ZZ:Z3fi4<n[bLI4@]30
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+vALSU_SVA
+R22
+R14
+!i10b 1
+!s100 RAn<WKj>YIRRa74W[]Q6a0
+IYLc]ME]OIgQ_LWccZ4>;P1
+S1
+R15
+w1746776001
+8alsu_assertions.sv
+Falsu_assertions.sv
+!i122 283
+L0 1 201
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+n@a@l@s@u_@s@v@a
+Xalsu_test_pkg
+R43
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R45
+R46
+R47
+Z52 DXx4 work 12 alsu_env_pkg 0 22 R?l7ID`6ED<iJ[XdGz@2U0
+Z53 DXx4 work 17 alsu_sequence_pkg 0 22 WT[EnzO2;h8SPkzD1_3fe3
+R29
+!i10b 1
+!s100 BZmki50NaE[z3l]=J[7DS1
+IVGRcLTNm4UAQHU2Mnm6iT3
+S1
+R15
+w1746789542
+8alsu_test.sv
+Falsu_test.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R44
+VVGRcLTNm4UAQHU2Mnm6iT3
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xconfig_obj_pkg
+R43
+R22
+R23
+R29
+!i10b 1
+!s100 93<5]hVCQomV<2j`_8@MW2
+IQU=W=Ih_6>TP4g0gXX24I2
+S1
+R15
+w1746781806
+8alsu_config_obj.sv
+Falsu_config_obj.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R51
+VQU=W=Ih_6>TP4g0gXX24I2
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+Xtop_module_tb_sv_unit
+R22
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R45
+R46
+R47
+R52
+R53
+Z54 DXx4 work 13 alsu_test_pkg 0 22 VGRcLTNm4UAQHU2Mnm6iT3
+R29
+VF@]N<`dozB3lVXcF;<@DH3
+r1
+!s85 0
+!i10b 1
+!s100 =>g8oBW>F2M]hWo8BPAhQ1
+IF@]N<`dozB3lVXcF;<@DH3
+!i103 1
+S1
+R15
+Z55 w1745765560
+Z56 8top_module_tb.sv
+Z57 Ftop_module_tb.sv
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+!i122 283
+R42
+R17
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
+vtop_tb
+R22
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R45
+R46
+R47
+R52
+R53
+R54
+DXx4 work 21 top_module_tb_sv_unit 0 22 F@]N<`dozB3lVXcF;<@DH3
+R29
+R16
+r1
+!s85 0
+!i10b 1
+!s100 MM_jejVRV`7ZL7^VUj_TB2
+IPU0V5Ymg>z]eUe<EiDj9d1
+!s105 top_module_tb_sv_unit
+S1
+R15
+R55
+R56
+R57
+!i122 283
+L0 5 27
+R17
+31
+R18
+R19
+R20
+!i113 0
+R21
+R9
